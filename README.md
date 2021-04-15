@@ -1,4 +1,4 @@
-# ALGOJAVA
+# AlgoJava
 Simple trading algorithm in Java.  
 By German Martinez-Ayuso  
 Email: germanmartinezayuso@gmail.com  
