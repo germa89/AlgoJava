@@ -1,0 +1,46 @@
+
+*** WELCOME TO ALGOJAVA ***
+
+
+This code performs buy/selling on the stock whose price history is given in the csv file attached. The algorithm will buy shares when: - The MA_short is lower than MA_long.
+The algorithm will sell shares when:
+ - The MA_short is higher than MA_long.
+ - The Stop loss get triggered. - The profit objective is reached.
+
+More information on the README attached. 
+Skipping 2 lines.
+Historic data file readed.
+100
+***
+Starting loop
+To calculate the moving averages, this algorithm discard the first %ma_long_% data points. And then we assume that the next data points are happening on real time, hence we will usethe previous moving averages previously calculated to decide whether we are buying or selling.
+***
+Day 680. Added 256 new shares at 39.0575 $ to the portofolio
+Day 686. Added 264 new shares at 37.6875 $ to the portofolio
+Day 692. Added 258 new shares at 38.735 $ to the portofolio
+Day 769. You reduced 389 shares by selling at 50.725 $ to the portofolio
+Day 772. You reduced 195 shares by selling at 46.43 $ to the portofolio
+Day 775. You reduced 97 shares by selling at 47.52 $ to the portofolio
+Day 778. You reduced 49 shares by selling at 46.65 $ to the portofolio
+Day 781. You reduced 24 shares by selling at 44.7425 $ to the portofolio
+Day 784. You reduced 12 shares by selling at 44.575 $ to the portofolio
+Day 787. You reduced 6 shares by selling at 44.91 $ to the portofolio
+Day 790. You reduced 3 shares by selling at 47.5375 $ to the portofolio
+Day 793. You reduced 2 shares by selling at 48.5475 $ to the portofolio
+Day 796. You reduced 1 shares by selling at 48.4725 $ to the portofolio
+
+
+Summary:
+--------
+Final value of portfolio: 107.905,66 €
+Number of shares in portfolio: 0
+Value of shares in portfolio: 0,00 €
+Profit portfolio: 7.905,66 €
+Profit portfolio (%): 7.91%
+
+*** END OF ALGOJAVA ***
+
+Designed and coded by German Martinez Ayuso.
+Available freely in Github - https://www.github.com/germa89
+
+***
