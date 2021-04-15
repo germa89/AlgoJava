@@ -1,7 +1,7 @@
 # ALGOJAVA
-Simple trading algorithm in Java.
-By German Martinez-Ayuso
-Email: germanmartinezayuso@gmail.com
+Simple trading algorithm in Java.  
+By German Martinez-Ayuso  
+Email: germanmartinezayuso@gmail.com  
 
 ## Objective
 This simple and little project aims to:
@@ -16,7 +16,7 @@ The algorithm follow the next steps:
     - Each trade cannot be bigger than `DecisionMaker.maximum_allocation_per_trade_percentage`.
     - It has passed at least `DecisionMaker.days_wait_to_buy` days between purchases.
 
-= If the `MA_short` is higher than `MA_long` the algorithm will start to sell half (`DecisionMaker.factor_reducing_position_while_selling`) of the remaining position until all of the shares are sold. It won't sell until `DecisionMaker.days_wait_to_sell` days have passed.
+- If the `MA_short` is higher than `MA_long` the algorithm will start to sell half (`DecisionMaker.factor_reducing_position_while_selling`) of the remaining position until all of the shares are sold. It won't sell until `DecisionMaker.days_wait_to_sell` days have passed.
 
 - If the losses are higher than `DecisionMaker.maximum_loss_percentage`, the algorithm will trigger a stop loss and will sell everything.
 
