@@ -3,11 +3,6 @@ Simple trading algorithm in Java.
 By German Martinez-Ayuso  
 Email: germanmartinezayuso@gmail.com  
 
-## Objective
-This simple and little project aims to:
-- Help me to learn Java programming language.
-- Learn the basics of algorithm trading. 
-
 ## Notes
 
 - The historical prices are obtained from an CSV file (attached) that you can edit as you wish. 
